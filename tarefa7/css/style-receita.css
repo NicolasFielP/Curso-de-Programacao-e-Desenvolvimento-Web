@@ -1,0 +1,29 @@
+ol li{
+    font-size: 2rem;
+}
+main h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+    font-weight: normal;
+    text-decoration: underline;
+}
+ol{
+    list-style-position: inside;
+    text-align: left;
+}
+#ingredientes li{
+    padding-left: 60rem;
+}
+#ingredientes{
+    margin-top: 2rem;
+}
+#preparo{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+#fonte{
+    margin-top: 12rem;
+    font-size: 2rem;
+}

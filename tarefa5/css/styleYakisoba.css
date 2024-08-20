@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 12%;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+}
+
+nav a{
+    display: block;
+    height: 100%;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    text-decoration: none;
+    background-color: blueviolet;
+}
+
+nav a:hover{
+    background-color: rgb(36, 4, 65);
+}
+#torta{
+    float: left;
+    border-right: 1px solid white;
+}
+#yakisoba {
+    float: right;
+    border-left: 1px solid white;
+}
+
+img {
+    width: 635px;
+}
+
+article{
+    width: 100%;
+    height: 100%;
+}
+
+#article_esquerda{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    padding-top: 130px;
+}
+
+#article_direita{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    padding-top: 200px;
+}
+
+main{
+    background-image: url("../img/PapelDeParede_salgado.jpg");
+    width: 100%;
+    height: 70%;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+footer{
+    width: 100%;
+    height: 8%;
+    background-color: brown;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    font-size: 20px;
+}
+
+span a{
+    color: white;
+    font-weight: bold;
+}
+
+#span_direita{
+    float: right;
+}
+
+#span_esquerda{
+    float: left;
+}

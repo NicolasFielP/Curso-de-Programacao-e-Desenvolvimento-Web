@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root{
+    font-size: 62.5%;
+}
+@keyframes gradiente{
+    from{
+        background-size: 100%;    
+        }
+    to{
+        background-size: 500%;
+        }
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 12%;
+    background-color: #FFB800;
+    text-align: center;
+}
+header h1{
+    padding-top: 2rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 5rem;
+}
+img{
+    width: 62.2rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+#meio{
+    width: 100%;
+    height: 82%;
+}
+
+main{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    float: right;
+}
+nav{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: #FFF5BE;
+    text-align: center;
+}
+ul{
+    width: 100%;
+    margin-top: 17rem;
+    list-style: none;
+}
+ul a{
+    font-size: 2.5rem;
+    color: black;
+    width: 100%;
+    height: 10rem; 
+    text-decoration: none;
+    display: block;
+    padding-top: 3.5rem;
+}
+ul a:hover{
+    background-image: linear-gradient(to right, #FFF5BE, #FFF5BE, #FFF5BE, #FFF5BE, #FFB800, #FFF5BE, #FFF5BE, #FFF5BE, #FFF5BE);
+    animation: gradiente 0.5s forwards;
+    background-position: center !important;
+}
+
+footer{
+    background-color: #FF993B;
+    width: 100%;
+    height: 6%;
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.8rem;
+}
+footer a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.direita{
+    float: right;
+}
+.esquerda{
+    float: left;
+}

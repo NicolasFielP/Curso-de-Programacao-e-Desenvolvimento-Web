@@ -1,0 +1,11 @@
+article{
+    padding-left: 4.4rem;
+    padding-right: 4.4rem;
+}
+main h1{
+    font-size: 3rem;
+}
+main p{
+    font-size: 2.5rem;
+    text-align: justify;
+}
