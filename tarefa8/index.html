@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,22 @@
     <link rel="shortcut icon" href="imgs/Icone.svg">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <img src="imgs/Logo.svg" alt="Logo">
     </header>
     <nav>
         <ul>
-            <a class="menu" href=""><li>Casual</li></a>
-            <a class="menu" href=""><li>Espotivo</li></a>
-            <a class="menu" href=""><li>Luxo</li></a>
+            <a class="menu" href="">
+                <li>Casual</li>
+            </a>
+            <a class="menu" href="">
+                <li>Espotivo</li>
+            </a>
+            <a class="menu" href="">
+                <li>Luxo</li>
+            </a>
         </ul>
     </nav>
     <main>
@@ -24,57 +32,74 @@
         <div id="bemvindo">
             <h1>Welcome!</h1>
             <p>
-                Os carros são muito mais do que meros meios de transporte. 
-                Eles representam estilo, desempenho e status, 
-                oferecendo uma experiência única para cada motorista. 
-                Nesta página, exploramos o fascinante universo dos automóveis, 
-                desde os veículos casuais que acompanham o dia a dia, passando pelos 
-                esportivos que fazem o coração acelerar, até os luxuosos que redefinem o 
+                Os carros são muito mais do que meros meios de transporte.
+                Eles representam estilo, desempenho e status,
+                oferecendo uma experiência única para cada motorista.
+                Nesta página, exploramos o fascinante universo dos automóveis,
+                desde os veículos casuais que acompanham o dia a dia, passando pelos
+                esportivos que fazem o coração acelerar, até os luxuosos que redefinem o
                 conceito de sofisticação.
             </p>
-            <img src="imgs/seta-baixo.svg" id="seta1"><br>
-            <img src="imgs/seta-baixo.svg" id="seta2"><br>
-            <img src="imgs/seta-baixo.svg" id="seta3">
+            <div id="setas">
+                <img src="imgs/seta-baixo.svg" id="seta1"><br>
+                <img src="imgs/seta-baixo.svg" id="seta2"><br>
+                <img src="imgs/seta-baixo.svg" id="seta3">
+            </div>
         </div>
         <div id="carros">
-            <h1>
-                Carros Casuais
-            </h1>
-            <p>
-                Carros casuais são ideais para o dia a dia, oferecendo praticidade e conforto. 
-                Com design simples e econômico, são perfeitos para deslocamentos urbanos e viagens curtas. 
-                Eles combinam eficiência de combustível e manutenção acessível, tornando-se a 
-                escolha ideal para quem busca um veículo confiável e funcional.
-            </p>
-            <img src="imgs/carro_casual.jpg" alt="corsa prata">
-            <h1>
-                Carros Esportivos
-            </h1>
-            <p>
-                Carros esportivos são sinônimos de velocidade e emoção. 
-                Projetados para alta performance, esses veículos oferecem uma experiência de condução 
-                emocionante, com motores potentes e design aerodinâmico. São perfeitos para quem busca 
-                adrenalina e estilo, destacando-se por seu desempenho superior e estética marcante.
-            </p>
-            <img src="imgs/carro_esporte.jpg" alt="carro esportivo roxo">
-            <h1>
-                Carros Luxuosos
-            </h1>
-            <p>
-                Carros luxuosos representam o ápice do conforto e da sofisticação. 
-                Com interiores refinados e tecnologia de ponta, esses veículos 
-                oferecem uma experiência de condução incomparável. São escolhidos 
-                por quem valoriza elegância, exclusividade e um nível excepcional de acabamento. 
-                Mais do que transporte, eles proporcionam um estilo de vida de prestígio e status.
-            </p>
-            <img src="imgs/carro_luxo.jpg" alt="carro luxuoso laranja">
+            <div class="descricao">
+                <h1>
+                    Carros Casuais
+                </h1>
+                <div class="grupo-imagem-texto">
+                    <p>
+                        Carros casuais são ideais para o dia a dia, oferecendo praticidade e conforto.
+                        Com design simples e econômico, são perfeitos para deslocamentos urbanos e viagens curtas.
+                        Eles combinam eficiência de combustível e manutenção acessível, tornando-se a
+                        escolha ideal para quem busca um veículo confiável e funcional.
+                    </p>
+                    <img src="imgs/carro_casual.jpg" alt="corsa prata" class="imagem-carro">
+                </div>
+            </div>
+            <div class="descricao">
+                <h1>
+                    Carros Esportivos
+                </h1>
+                <div class="grupo-imagem-texto">
+                    <p>
+                        Carros esportivos são sinônimos de velocidade e emoção.
+                        Projetados para alta performance, esses veículos oferecem uma experiência de condução
+                        emocionante, com motores potentes e design aerodinâmico. São perfeitos para quem busca
+                        adrenalina e estilo, destacando-se por seu desempenho superior e estética marcante.
+                    </p>
+                    <img src="imgs/carro_esporte.jpg" alt="carro esportivo roxo" class="imagem-carro">
+                </div>
+
+            </div>
+            <div class="descricao">
+                <h1>
+                    Carros Luxuosos
+                </h1>
+                <div class="grupo-imagem-texto">
+                    <p id="texto-branco">
+                        Carros luxuosos representam o ápice do conforto e da sofisticação.
+                        Com interiores refinados e tecnologia de ponta, esses veículos
+                        oferecem uma experiência de condução incomparável. São escolhidos
+                        por quem valoriza elegância, exclusividade e um nível excepcional de acabamento.
+                        Mais do que transporte, eles proporcionam um estilo de vida de prestígio e status.
+                    </p>
+                    <img src="imgs/carro_luxo.jpg" alt="carro luxuoso laranja" class="imagem-carro">
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-        <span>Curso de programação e desenvolvimento web com <a href="https://github.com/Thiago-Henrique-Santos">Thiago Santos</a>.</span>
+        <span>Curso de programação e desenvolvimento web com <a href="https://github.com/Thiago-Henrique-Santos">Thiago
+                Santos</a>.</span>
         <span>Desenvolvido por <a href="https://github.com/NicolasFielP">Nicolas Fiel</a>.</span>
         <span>©2024</span>
         <img src="imgs/Logo.svg" alt="Logo">
     </footer>
 </body>
+
 </html>
