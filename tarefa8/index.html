@@ -15,14 +15,14 @@
     </header>
     <nav>
         <ul>
-            <a class="menu" href="">
-                <li>Casual</li>
+            <a class="menu" href="#casuais">
+                <li>Casuais</li>
             </a>
-            <a class="menu" href="">
-                <li>Espotivo</li>
+            <a class="menu" href="#esportivos">
+                <li>Espotivos</li>
             </a>
-            <a class="menu" href="">
-                <li>Luxo</li>
+            <a class="menu" href="#luxuosos">
+                <li>Luxuosos</li>
             </a>
         </ul>
     </nav>
@@ -48,7 +48,7 @@
         </div>
         <div id="carros">
             <div class="descricao">
-                <h1>
+                <h1 id="casuais">
                     Carros Casuais
                 </h1>
                 <div class="grupo-imagem-texto">
@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="descricao">
-                <h1>
+                <h1 id="esportivos">
                     Carros Esportivos
                 </h1>
                 <div class="grupo-imagem-texto">
@@ -77,7 +77,7 @@
 
             </div>
             <div class="descricao">
-                <h1>
+                <h1 id="luxuosos">
                     Carros Luxuosos
                 </h1>
                 <div class="grupo-imagem-texto">
@@ -94,11 +94,23 @@
         </div>
     </main>
     <footer>
-        <span>Curso de programação e desenvolvimento web com <a href="https://github.com/Thiago-Henrique-Santos">Thiago
-                Santos</a>.</span>
-        <span>Desenvolvido por <a href="https://github.com/NicolasFielP">Nicolas Fiel</a>.</span>
-        <span>©2024</span>
+        <div id="grupo-esquerda">
+            <span class="creditos">Curso de programação e desenvolvimento web com 
+                <a href="https://github.com/Thiago-Henrique-Santos">Thiago Santos</a>.</span>
+            <span class="creditos">Desenvolvido por 
+                <a href="https://github.com/NicolasFielP">Nicolas Fiel</a>.</span>
+            <span class="creditos">©2024</span>
+        </div>
+        <div id="grupo-direita">
         <img src="imgs/Logo.svg" alt="Logo">
+        <span class="conteudos">Lista de conteudos</span>
+        <ul class="conteudos">
+            <li><a href="#bemvindo">Boas Vindas</a></li>
+            <li><a href="#casuais">Carros Casuais</a></li>
+            <li><a href="#esportivos">Carros Esportivos</a></li>
+            <li><a href="#luxuosos">Carros de Luxo</a></li>
+        </ul>
+        </div>
     </footer>
 </body>
 

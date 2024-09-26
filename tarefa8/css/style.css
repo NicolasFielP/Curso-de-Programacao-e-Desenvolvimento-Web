@@ -147,6 +147,51 @@ p {
 #texto-branco{
     color: white;
 }
+
+footer{
+    width: 100%;
+    height: 34.4rem;
+    background: rgb(32, 32, 32);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.creditos{
+    font-size: 2.5rem;
+}
+.conteudos{
+    font-size: 2.8rem; 
+}
+
+#grupo-esquerda, #grupo-direita{
+    display: flex;
+    flex-direction: column;
+}
+#grupo-esquerda{
+    justify-content: space-around;
+    padding-left: 11.5rem;
+}
+#grupo-esquerda a{
+    font-weight: bold;
+}
+#grupo-direita{
+    padding-right: 11.5rem;
+    text-align: left;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+#grupo-direita span{
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+footer a{
+    color: white;
+}
 @keyframes slideshow {
     0% ,20%, 100%{
         background-image: url("../imgs/slideshow/carros_preto_e_branco.jpg");
