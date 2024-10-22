@@ -66,6 +66,9 @@ nav ul a:nth-of-type(2){
 nav ul a:nth-of-type(3){
     border-left: white 1px solid;
 }
+html{
+    scroll-behavior: smooth;
+}
 nav ul a:hover{
     background: linear-gradient(40deg, rgba(49,49,49,1) 38%, rgba(199,199,199,0.7) 45%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0.7) 57%, rgba(192,192,192,0.7) 60%, rgba(49,49,49,1) 65%);
     animation: botao-nav 1.2s forwards;
