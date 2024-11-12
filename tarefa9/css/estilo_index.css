@@ -1,0 +1,22 @@
+main img{
+    width: 41.2rem;
+    height: auto;
+}
+article{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+    column-gap: 5rem;
+}
+p{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 41.2rem;
+}
