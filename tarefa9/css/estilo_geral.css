@@ -100,3 +100,6 @@ footer{
     font-weight: bold;
     color: black;
 }
+main{
+    min-height: calc(100% - 15rem - 10rem - 26.2rem);
+}

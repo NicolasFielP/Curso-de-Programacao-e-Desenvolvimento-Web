@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 6</title>
+    <link rel="stylesheet" href="css/estilo_geral.css">
+    <link rel="stylesheet" href="css/estilo_compartilhar.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="logotipo" src="img/logotipo.png"></a>
+        <a href="index.html"><button>Voltar aos campos</button></a>
+    </header>
+    <main>
+        <div id="introducao">
+            <p>
+                Muito legal você se interessar em nos enviar seu campo de flores para incluir na página! 
+                Saiba que apreciamos muito os belos campos de flores e outras plantas. Para que nosso site 
+                mantenha a qualidade de conteúdo, analisamos as imagens e descrições enviadas para nós, antes 
+                de permitir que estejam na amostra, na página principal. O feedback de seu envio será retornado 
+                em seu e-mail. Desde já, agradecemos o interesse.
+            </p>
+            <p>
+                Seja responsável e capriche! Ficaremos felizes de analisar seus belos campos!
+            </p>
+        </div>
+        <form action="#">
+            <div id="contato">
+                <h2>Contato</h2>
+                <label for="nome">Seu Nome: </label>
+                <input type="text" placeholder="Ex: Thiago Santos" id="nome"><br>
+                <label for="email">Seu E-mail: </label>
+                <input type="text"placeholder="Ex: Thiagosantos@seuemail.com" id="email">
+            </div>
+            <div id="campo">
+                <h2>Seu campo</h2>
+                <label for="arquivo">Insira a imagem do seu campo: </label><br>
+                <input type="file" id="arquivo"><br>
+                <label for="descricao">Descreva seu Campo: </label><br>
+                <textarea id="descricao" placeholder="Crie uma bela descrição curta sobre o campo que está nos enviando.
+    
+Por exemplo:
+Um vasto campo de lírios brancos e laranjas se estende até o horizonte, onde o sol dourado toca delicadamente as pétalas vibrantes. Os lírios brancos irradiam pureza e serenidade, enquanto os lírios laranjas trazem um toque de energia e vitalidade. Juntos, eles dançam suavemente ao sabor da brisa, criando um espetáculo harmonioso de cores e fragrâncias, transformando o campo em um refúgio de beleza e paz.
+                
+Sugestões para seu texto: Descreva o campo com palavras bonitas. Conte a história do campo. Chame atenção para momentos ou paisagens que ele cria."></textarea><br>
+            </div>
+            <div id="botoes">
+                <button type="submit" id="enviar">Enviar</button>
+                <button type="reset" id="resetar">Resetar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div id="rodape-cima">
+            <div id="parte-principal-rodape">
+                <div id="links">
+                    <div id="conteudo">
+                        <span>Conteúdo</span><br><br>
+                        <a href="#fluorescencia">Fluorescência</a><br>
+                        <a href="#campopolis">Campópolis</a><br>
+                        <a href="#larmelho">Larmelho</a>
+                    </div>
+                    <div id="contribua">
+                        <span>Contribua</span><br><br>
+                        <a href="">Feedback</a><br>
+                        <a href="compartilhar.html">Compartilhe um campo</a>
+                    </div>
+                </div>
+            </div>
+
+            <img id="logotipo-footer" src="img/logotipo.png">
+        </div>
+        <div id="creditos">
+            <span class="esquerda">Desenvolvido por: <a href="https://github.com/NicolasFielP">Nicolas Fiel</a></span>
+            <span class="direita">Curso de programação e desenvolvimento web com: <a href="https://github.com/Thiago-Henrique-Santos">Thiago Santos</a></span>
+        </div>
+    </footer>
+</body>
+</html>

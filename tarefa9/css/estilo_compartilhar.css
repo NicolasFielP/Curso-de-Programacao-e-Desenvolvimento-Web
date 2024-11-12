@@ -1,0 +1,74 @@
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 5rem;
+} 
+
+#introducao{
+    font-size: 18px;
+    padding-bottom: 5rem;
+}
+
+form{
+    border: #5603AD 2px solid;
+    color: #5603AD;
+    background-color: #F3EEFF;
+    border-radius: 2rem;
+    padding: 2rem;
+    min-height: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 28px;
+}
+
+form h2{
+    text-align: center;
+}
+
+input[type="text"], textarea{
+    border: #5603AD 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+#arquivo{
+    color: black;
+}
+#contato{
+    margin-bottom: 5rem;
+}
+input[type="text"]{
+    min-width: 120rem;
+}
+textarea{
+    min-width: 151.5rem;
+    max-width: 151.5rem;
+    min-height: 50rem;
+    max-height: 50rem;
+}
+
+#botoes{
+    text-align: center;
+}
+#enviar, #resetar{
+    width: 13rem;
+    height: 4rem;
+    border: 0px solid;
+    border-radius: 1rem;
+}
+#enviar{
+    background-color: #FFCA64;
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+#resetar{
+    background-color: #04C600;
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
